@@ -9,7 +9,6 @@ tmp/
 .DS_Store
 *.zip
 *.tar.gz
-Thumbs.db
 .idea/
 *.sublime-workspace
 *.sublime-project
