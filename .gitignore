@@ -4,3 +4,6 @@ node_modules/
 .env
 build/
 logs/
+coverage/
+tmp/
+.DS_Store
