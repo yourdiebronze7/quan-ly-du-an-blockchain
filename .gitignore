@@ -12,3 +12,4 @@ tmp/
 .idea/
 *.sublime-workspace
 *.sublime-project
+yarn.lock
