@@ -7,3 +7,5 @@ logs/
 coverage/
 tmp/
 .DS_Store
+*.zip
+*.tar.gz
