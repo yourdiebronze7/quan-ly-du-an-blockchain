@@ -19,11 +19,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/quanlydua
 
 // Routes
 app.get('/', (req, res) => {
-  try {
-    res.send('Chào mừng đến với Quản Lý Dự Án Blockchain!');
-  } catch (error) {
-    res.status(500).send('An error occurred.');
-  }
+  res.send('Chào mừng đến với Quản Lý Dự Án Blockchain!');
 });
 
 app.listen(PORT, () => {
